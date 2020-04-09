@@ -2,7 +2,7 @@
 
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "sbrumley/demistoserver-5.0-50293"
+  config.vm.box = "sbrumley/demistoserver"
   config.vm.box_version = "5.5-67560"
   config.vm.hostname = "demisto"
   config.vm.provider :virtualbox do |v|
